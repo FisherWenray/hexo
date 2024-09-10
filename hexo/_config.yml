@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: ‘文鳐夜飞’
 subtitle: ''
 description: ''
 keywords:
@@ -29,6 +29,9 @@ category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
+
+# 服务器配置
+server_port: 5000
 
 # Writing
 new_post_name: :title.md # File name of new posts
@@ -96,11 +99,11 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: git@github.com:FisherManray/FisherManray.github.io.git
+  repo: git@github.com:FisherWenray/FisherWenray.github.io.git
   branch: master
